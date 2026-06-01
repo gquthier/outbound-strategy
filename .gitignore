@@ -1,0 +1,15 @@
+# Dependencies / build
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Secrets & PII — NEVER commit (your own copies live outside this repo)
+.env*
+accounts.json
+*.local.json
+data/
+leads/
+out/
+
+# OS
+.DS_Store

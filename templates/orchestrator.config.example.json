@@ -1,0 +1,18 @@
+{
+  "timezone": "Europe/Paris",
+  "sendDays": [1, 2, 3, 4, 5],
+  "sendHours": { "start": 8, "end": 18 },
+  "ramp": {
+    "startPerInbox": 8,
+    "stepPerWeek": 4,
+    "maxPerInbox": 20,
+    "startDate": "2025-01-01"
+  },
+  "campaigns": [
+    {
+      "name": "campaign_1",
+      "active": false,
+      "_note": "active:true once copy is approved and contacts are enrolled. inboxes defaults to all in accounts.json."
+    }
+  ]
+}

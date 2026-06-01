@@ -1,0 +1,44 @@
+[
+  {
+    "step": 1,
+    "delay_days": 0,
+    "variants": [
+      {
+        "name": "a",
+        "weight": 50,
+        "subject": "quick question {{firstName}}",
+        "text": "Hi {{firstName}},\n\nStraight to the point: we help [ICP, e.g. agencies & consultants] [OUTCOME, e.g. book 5-10 qualified calls/month] without changing how they work — done-for-you.\n\n[PROOF, e.g. +X calls in 30 days for a similar team].\n\nWorth 15 min? [CALENDAR LINK or \"just reply yes\"]\n\n[Your name]"
+      },
+      {
+        "name": "b",
+        "weight": 50,
+        "subject": "{{firstName}}, +10 calls/month?",
+        "text": "Hi {{firstName}},\n\nWould a steady stream of [OUTCOME] be useful for [your business] right now?\n\nWe handle everything — targeting, copy, sending, replies. You just take the calls.\n\nOpen to a quick chat this week? [CALENDAR LINK]\n\n[Your name]"
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "delay_days": 3,
+    "variants": [
+      {
+        "name": "a",
+        "weight": 100,
+        "subject": "",
+        "text": "Hi {{firstName}}, bumping this in case it slipped. One line is enough if it's not the right time — otherwise I'll show you exactly how it works in 15 min. [Your name]"
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "delay_days": 5,
+    "variants": [
+      {
+        "name": "a",
+        "weight": 100,
+        "subject": "",
+        "text": "{{firstName}}, I won't keep pushing — closing this out on my side. If you ever want a predictable flow of calls without relying on referrals, my door's open. All the best. [Your name]"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "accounts": [
+    {
+      "email": "you@yourdomain.com",
+      "firstName": "Your",
+      "lastName": "Name",
+      "password": "your-mailbox-password",
+      "imapHost": "imap.yourdomain.com",
+      "imapPort": 993,
+      "smtpHost": "smtp.yourdomain.com",
+      "smtpPort": 587,
+      "maxEmailPerDay": 20,
+      "domain": "yourdomain.com"
+    }
+  ]
+}
